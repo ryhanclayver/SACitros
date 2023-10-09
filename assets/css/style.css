@@ -1,0 +1,47 @@
+:root {
+    --cor-verde-barra: rgba(26, 61, 27, 0.8);
+    --cor-verde: #1a3d1b;
+    --cor-cinza: #333;
+    --cor-branca-barra: rgba(255,255,255, 0.7);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Tahoma, Geneva, Kalimati, sans-serif;
+}
+
+.navbar{
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.nav-link:hover{
+    color: var(--cor-branca-barra);
+}
+
+#barraMenu{
+    justify-content: center;
+}
+
+#barra{
+    border-radius: 10px;
+    justify-content: flex-end;   
+}
+
+#barra a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.navbar.navbar-light {
+    background-color: var(--cor-verde-barra) !important;
+}
+
+
