@@ -13,8 +13,8 @@
 }
 
 .navbar{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 10px;
     display: flex;
     justify-content: flex-end;
@@ -27,14 +27,17 @@
 
 #barra{
     border-radius: 10px;
-    justify-content: flex-end;   
+    justify-content: flex-end;
+    padding-right: 100px;  
 }
 
 #barra a {
     color: white;
     font-size: 17px;
     text-decoration: none;
+    padding-right: 40px;
 }
+
 
 .navbar.navbar-light {
     background-color: var(--cor-verde-barra) !important;
@@ -43,6 +46,6 @@
 .logo {
     max-height: 50px; /* Tamanho da Logo na Nav */
     margin-right: 10px;
-    padding-left: 50px;
+    padding-left: 140px;
 }
 
