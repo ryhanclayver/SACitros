@@ -17,7 +17,6 @@
     margin-right: 10%;
     border-radius: 10px;
     display: flex;
-    justify-content: flex-end;
 
 }
 
@@ -28,7 +27,7 @@
 #barra{
     border-radius: 10px;
     justify-content: flex-end;
-    padding-right: 100px;  
+    padding-right: 10px;  
 }
 
 #barra a {
@@ -46,6 +45,19 @@
 .logo {
     max-height: 50px; /* Tamanho da Logo na Nav */
     margin-right: 10px;
-    padding-left: 140px;
+    padding-left: 30px;
 }
 
+.navbar-menu {
+    margin-left: 30px; 
+}
+
+header button{
+    margin-right: 30px;
+}
+
+@media (max-width: 991px) {
+    #menu img {
+       padding-left: 30px; 
+    }
+}
