@@ -56,8 +56,29 @@ header button{
     margin-right: 30px;
 }
 
+#menu{
+    background-image: url('../images/limao.jfif');
+    height: 100vh;
+}
+
 @media (max-width: 991px) {
     #menu img {
        padding-left: 30px; 
     }
+}
+
+.central-panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff; 
+    border: 2px solid #fff; 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+.central-panel h1 {
+    font-size: 3em; 
 }
