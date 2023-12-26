@@ -100,5 +100,31 @@ header button{
     color: white;
     font-weight: bold;
     text-align: center;
+    text-decoration: none;
 }
-    
+
+.centraliza{
+    text-align: center;
+    text-decoration: none;
+}
+
+.containerValores {
+    border: 2px solid #ffd700; /* cor dourada */
+    padding: 20px; /* espaço interno */
+    background-color: var(--cor-verde); /* cor verde */
+    color: white;
+    text-decoration: none;
+    margin: 60px;
+    border-radius: 20px;
+    max-height: 400px; 
+    overflow: hidden; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.containerValores img {
+    max-width: 100%; 
+    height: auto; 
+    align-self: center; 
+    border-radius: 20px;
+}
