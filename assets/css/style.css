@@ -86,3 +86,18 @@ header button{
     font-size: 3em; 
     font-family: Snell Roundhand, cursive;
 }
+
+#historia{
+    background-color: var(--cor-verde);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.containerHistoria{
+    border: 2px solid #ffd700; /* cor dourada */
+    padding: 20px; /* espaço interno */
+    background-color: #ffffff; /* cor branca */
+    margin: 20px;
+    border-radius: 20px;
+}
+    
