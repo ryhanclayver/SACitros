@@ -12,13 +12,13 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navbar{
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 10px;
-    display: flex;
-
+.navbar.navbar-light {
+    background-color: var(--cor-verde-barra) !important;
+    position: fixed; /* Mantém a barra fixa no topo da tela */
+    width: 100%; /* Largura total da tela */
+    z-index: 1000; /* Certifica de que está acima de outros elementos */
 }
+
 
 .nav-link:hover{
     color: var(--cor-branca-barra);
@@ -35,11 +35,6 @@
     font-size: 17px;
     text-decoration: none;
     padding-right: 40px;
-}
-
-
-.navbar.navbar-light {
-    background-color: var(--cor-verde-barra) !important;
 }
 
 .logo {
