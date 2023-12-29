@@ -132,3 +132,9 @@ header button{
     align-self: center; 
     border-radius: 20px;
 }
+
+#empresas{
+    background-color: var(--cor-verde);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
