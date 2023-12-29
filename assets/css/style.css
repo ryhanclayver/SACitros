@@ -138,3 +138,13 @@ header button{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.containerEmpresas{
+    border: 2px solid #ffd700; /* cor dourada */
+    padding: 20px; /* espaço interno */
+    background-color: #ffffff; /* cor branca */
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
