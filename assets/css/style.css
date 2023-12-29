@@ -12,6 +12,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar.navbar-light {
     background-color: var(--cor-verde-barra) !important;
     position: fixed; /* Mantém a barra fixa no topo da tela */
