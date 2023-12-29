@@ -101,13 +101,16 @@ header button{
 }
 
 .textoBranco{
+    margin-top: 30px;
     color: white;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    background-color: var(--cor-verde);
 }
 
 .centraliza{
+    margin-top: 30px;
     text-align: center;
     text-decoration: none;
 }
