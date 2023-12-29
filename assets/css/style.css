@@ -151,3 +151,11 @@ header button{
     margin-left: 20%;
     margin-right: 20%;
 }
+
+footer{
+    padding-top: 30px;
+    background-color: var(--cor-cinza);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
